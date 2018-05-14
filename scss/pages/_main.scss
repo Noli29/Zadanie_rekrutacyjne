@@ -1,0 +1,29 @@
+main {
+  margin: 40px 450px 0;
+  text-align: center;
+
+  p {
+    color: #000;
+    font-family: Raleway, sans-serif;
+    font-size: 30px;
+    font-weight: 200;
+    
+    span {
+      color: #fff;
+    }
+  }
+
+  img {
+      margin-top: 80px;
+
+    &:hover {
+      -webkit-animation:spin 4s linear infinite;
+      -moz-animation:spin 4s linear infinite;
+      animation:spin 4s linear infinite;
+    }
+  }
+
+  @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+  @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+  @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+}

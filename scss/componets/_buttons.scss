@@ -1,0 +1,21 @@
+header {
+  nav {
+    ul.navbar-right  {
+      li a.btn-white {
+        position: relative;
+        padding: 10px 30px;
+        text-decoration: none;
+        border: 3px solid #fff;
+        border-radius: 7px;
+        transition: .2s linear;
+
+        &:hover {
+          color: #000;
+          background: #fff;
+          text-decoration: none;
+        }
+
+      }
+    }
+  }
+}

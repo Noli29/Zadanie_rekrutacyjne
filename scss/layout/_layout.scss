@@ -1,0 +1,23 @@
+.container {
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.container::before,
+.container::after,
+.clearfix::before,
+.clearfix::after {
+  content: '';
+  display: table;
+}
+.container::after,
+.clearfix::after {
+  clear: both;
+}
+.wrapper {
+  overflow: hidden;
+
+  background: url("../../app/images/bg_image.jpg") #001820 no-repeat center center fixed;
+  background-size: cover;
+}
