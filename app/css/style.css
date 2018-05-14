@@ -18,9 +18,14 @@
   background: url("../../app/images/bg_image.jpg") #001820 no-repeat center center fixed;
   background-size: cover; }
 
+header nav.MyNavigation {
+  overflow: hidden; }
+  header nav.MyNavigation a.icon {
+    display: none; }
+
 header nav div {
   margin-left: 125px;
-  margin-top: -10px; }
+  margin-top: 10px; }
   header nav div.navbar-left {
     float: left; }
     header nav div.navbar-left a img {
@@ -91,6 +96,32 @@ header nav ul.navbar-right li a.btn-white {
     background: #fff;
     text-decoration: none; }
 
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  header nav ul.navbar-right li a.btn-white {
+    position: relative;
+    padding: 5px 15px;
+    text-decoration: none;
+    border: 3px solid #fff;
+    border-radius: 7px;
+    transition: .2s linear; }
+    header nav ul.navbar-right li a.btn-white:hover {
+      color: #000;
+      background: #fff;
+      text-decoration: none; } }
+
+@media screen and (min-width: 375px) and (max-width: 424px) {
+  header nav ul.navbar-right li a.btn-white {
+    position: relative;
+    padding: 5px 15px;
+    text-decoration: none;
+    border: 3px solid #fff;
+    border-radius: 7px;
+    transition: .2s linear; }
+    header nav ul.navbar-right li a.btn-white:hover {
+      color: #000;
+      background: #fff;
+      text-decoration: none; } }
+
 main {
   margin: 40px 450px 0;
   text-align: center; }
@@ -129,14 +160,42 @@ header nav ul.navbar-right li a.btn-white {
     text-decoration: none; }
 
 @media screen and (min-width: 320px) and (max-width: 374px) {
+  header nav ul.navbar-right li a.btn-white {
+    position: relative;
+    padding: 5px 15px;
+    text-decoration: none;
+    border: 3px solid #fff;
+    border-radius: 7px;
+    transition: .2s linear; }
+    header nav ul.navbar-right li a.btn-white:hover {
+      color: #000;
+      background: #fff;
+      text-decoration: none; } }
+
+@media screen and (min-width: 375px) and (max-width: 424px) {
+  header nav ul.navbar-right li a.btn-white {
+    position: relative;
+    padding: 5px 15px;
+    text-decoration: none;
+    border: 3px solid #fff;
+    border-radius: 7px;
+    transition: .2s linear; }
+    header nav ul.navbar-right li a.btn-white:hover {
+      color: #000;
+      background: #fff;
+      text-decoration: none; } }
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
   header nav div {
-    margin-left: -45px;
-    margin-top: -10px; }
+    margin-left: -45px; }
   header nav ul {
     margin-top: 30px; }
     header nav ul.navbar-right li {
       display: inline-block;
-      margin-left: 10px; }
+      margin-left: 40px;
+      margin-right: 40px; }
+      header nav ul.navbar-right li a {
+        font-size: 9px; }
   main {
     margin: 0; }
     main p {
@@ -156,13 +215,15 @@ header nav ul.navbar-right li a.btn-white {
 
 @media screen and (min-width: 375px) and (max-width: 424px) {
   header nav div {
-    margin-left: -45px;
-    margin-top: -10px; }
+    margin-left: -45px; }
   header nav ul {
     margin-top: 30px; }
     header nav ul.navbar-right li {
       display: inline-block;
-      margin-left: 10px; }
+      margin-left: 40px;
+      margin-right: 40px; }
+      header nav ul.navbar-right li a {
+        font-size: 9px; }
   main {
     margin: 0; }
     main p {
@@ -182,8 +243,7 @@ header nav ul.navbar-right li a.btn-white {
 
 @media screen and (min-width: 425px) and (max-width: 767px) {
   header nav div {
-    margin-left: -45px;
-    margin-top: -10px; }
+    margin-left: -45px; }
   header nav ul {
     margin-top: 30px; }
     header nav ul.navbar-right li {
@@ -208,8 +268,7 @@ header nav ul.navbar-right li a.btn-white {
 
 @media screen and (min-width: 768px) and (max-width: 960px) {
   header nav div {
-    margin-left: -45px;
-    margin-top: -10px; }
+    margin-left: -45px; }
   header nav ul {
     margin-top: 30px; }
     header nav ul.navbar-right li {

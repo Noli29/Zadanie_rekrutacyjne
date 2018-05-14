@@ -19,3 +19,51 @@ header {
     }
   }
 }
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  header {
+    nav {
+      ul.navbar-right  {
+        li a.btn-white {
+          position: relative;
+          padding: 5px 15px;
+          text-decoration: none;
+          border: 3px solid #fff;
+          border-radius: 7px;
+          transition: .2s linear;
+
+          &:hover {
+            color: #000;
+            background: #fff;
+            text-decoration: none;
+          }
+
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 424px) {
+  header {
+    nav {
+      ul.navbar-right  {
+        li a.btn-white {
+          position: relative;
+          padding: 5px 15px;
+          text-decoration: none;
+          border: 3px solid #fff;
+          border-radius: 7px;
+          transition: .2s linear;
+
+          &:hover {
+            color: #000;
+            background: #fff;
+            text-decoration: none;
+          }
+
+        }
+      }
+    }
+  }
+}

@@ -3,12 +3,21 @@ header {
 
   nav{
 
+    &.MyNavigation {
+      overflow: hidden;
+
+      a.icon {
+        display: none;
+      }
+    }
+
     div {
       margin-left: 125px;
-      margin-top: -10px;
+      margin-top: 10px;
 
       &.navbar-left {
         float: left;
+
 
         a img{
           width: 50%;
